@@ -1,4 +1,8 @@
-testapp
-=======
+Simple iOS Application with iPad and iPhone storyboards.
 
-iOS TestApp
+#### Usage:
+
+```bash
+> git clone https://github.com/forexample/testapp
+> ./build.sh
+```
