@@ -6,4 +6,4 @@ rm -rf _builds
 
 cmake -H. -B_builds -GXcode
 
-open _builds/testapp.xcodeproj
+open _builds/*.xcodeproj
