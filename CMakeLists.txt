@@ -12,7 +12,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 ### -- end
 
 if(NOT XCODE_VERSION)
-  sugar_fatal_error("Xcode only")
+  message(FATAL_ERROR "Xcode only")
 endif()
 
 set(
