@@ -1,0 +1,13 @@
+language:
+    - objective-c
+
+before_install:
+    - brew update
+
+install:
+    - brew install cmake
+    - cmake --version
+
+script:
+    - chmod +x build.sh
+    - ./build.sh
